@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Muli&display=swap");
+
+:root {
+  --blue-500: #00b4d8;
+  --blue-600: #48cae4;
+  --blue-800: #ade8f4;
+  --blue-900: #caf0f8;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(90deg, var(--blue-900), var(--blue-800));
+  font-family: "Muli", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+h1 {
+  position: fixed;
+  top: 20px
+}
+
+main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #fff;
+  border-radius: 5px;
+  transition: width 0.3s ease 0.2s
+}
+
+.search .input,
+.search .btn {
+  font-family: "Muli";
+  border: none;
+  border-radius: 5px;
+  height: 50px;
+  width: 50px;  border: 0;
+}
+
+.search .input {
+  font-size: 18px;
+  padding: 15px;
+  transition: width 0.3s ease;
+}
+
+.search .btn {
+  font-size: 20px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.search .btn:hover {
+  color: var(--blue-500);
+}
+
+.search .btn:active {
+  color: var(--blue-600);
+}
+
+.search .input:focus,
+.search .btn:focus {
+  outline: none;
+}
+
+.search.active {
+  transform: scaleY(225px);
+}
+.search.active .input {
+  width: 200px;
+  border-radius: 5px 0 0 5px;
+}
+
+.search.active .btn {
+  transform: translateX(198px);
+  border-radius: 0 5px 5px 0;
+}
