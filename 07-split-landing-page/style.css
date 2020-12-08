@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Muli&display=swap");
+:root {
+  --primary-color: #2a9d8f;
+  --secondary-color: #333;
+  --orange-500: #bc6c25;
+  --green-500: #0e7a0d;
+  --active-width: 80%;
+  --inactive-width: 20%;
+  --transition-speed: 700ms;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Muli", sans-serif;
+  overflow: hidden;
+  margin: 0;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+
+.btn {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  width: 15rem;
+  border: 1px solid #fff;
+  padding: 1.5rem;
+  font-size: bold;
+  cursor: pointer;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  /* min-width: 850px;
+  min-height: 680px; */
+}
+
+.split {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.split.left {
+  background: url("ps5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center left;
+  left: 0;
+}
+
+.split.left::before {
+  content: "";
+  position: absolute;
+  background-color: var(--primary-color);
+  opacity: 70%;
+  height: 100%;
+  width: 100%;
+}
+
+.split.left .btn:hover {
+  background-color: var(--orange-500);
+  border-color: var(--orange-500);
+}
+
+.split.right {
+  background: url("xbox-series-x.jpg");
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: cover;
+  right: 0;
+}
+
+.split.right::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: var(--secondary-color);
+  opacity: 70%;
+}
+
+.split.right .btn:hover {
+  background-color: var(--green-500);
+  border-color: var(--green-500);
+}
+
+.hover-left .left {
+  width: var(--active-width);
+}
+
+.hover-left .right {
+  width: var(--inactive-width);
+}
+
+.hover-right .left {
+  width: var(--inactive-width);
+}
+
+.hover-right .right {
+  width: var(--active-width);
+}
+
+.split.left,
+.split.right,
+.split.left::before,
+.split.right::before {
+  transition: all var(--transition-speed) ease-in-out;
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 2rem;
+    top: 30%;
+  }
+
+  .btn {
+    width: 12rem;
+    padding: 1.2rem;
+  }
+
+  .split.left,
+  .split.right {
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+@media (max-height: 500px) {
+  h1 {
+    top: 22%;
+  }
+}
