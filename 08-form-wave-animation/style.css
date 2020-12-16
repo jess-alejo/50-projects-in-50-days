@@ -96,7 +96,8 @@ body {
 }
 
 .form-control input:focus + label span,
-.form-control input:valid + label span {
+.form-control input:valid + label span,
+.form-control input:not(:placeholder-shown) + label span {
   transform: translateY(-40px);
   font-size: 16px;
 }
