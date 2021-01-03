@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Muli&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4a261;
+  font-family: "Muli", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding-top: 3rem;
+}
+
+.add {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  background-color: #1d3557;
+  border: none;
+  border-radius: 3px;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.add:hover {
+  background-color: #457b9d;
+}
+
+.add:focus {
+  outline: none;
+}
+
+.add:active {
+  transform: scale(0.98);
+}
+
+.add .fas {
+  margin-right: 0.25rem;
+  font-size: 0.75rem;
+}
+
+.note {
+  background-color: transparent;
+  position: relative;
+  margin: 30px 20px;
+  width: 400px;
+}
+
+.note .tools {
+  background-color: #264653;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.note .tools button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 10px;
+  margin: 0;
+  height: 40px;
+  width: 40px;
+}
+
+.note .tools button:active {
+  transform: scale(0.9);
+}
+
+.note .tools button:hover {
+  opacity: 0.8;
+  background-color: #f1faee;
+}
+
+.note .tools button:focus {
+  outline: none;
+}
+
+button.edit .fas {
+  color: #2a9d8f;
+}
+
+button.delete .fas {
+  color: #e76f51;
+}
+
+button {
+  transition: background-color 0.15s linear;
+}
+
+.note textarea {
+  outline: none;
+  font-family: inherit;
+  font-size: 1.2rem;
+  border: 5px solid #fff;
+  width: 100%;
+  height: 400px;
+  padding: 20px;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1);
+}
+
+.hidden {
+  display: none;
+}
+
+.main {
+  padding: 20px;
+  background-color: #fff;
+  min-height: 400px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1);
+  overflow-x: hidden;
+  overflow-y: auto;
+}
