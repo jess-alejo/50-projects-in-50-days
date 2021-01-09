@@ -9,7 +9,9 @@ function showProjects() {
 
     project.innerHTML = `
     <div class="preview">
-      <img src="${data.url}/preview.png" alt="${data.title}">
+      <a href="${data.url}/index.html">
+        <img src="${data.url}/preview.png" alt="${data.title}">
+      </a>
     </div>
     <div class="info">
       <h4 class="title">${data.title}</h4>

@@ -59,12 +59,14 @@ p.introduction {
   flex-grow: 2;
 }
 
-.project .info .title {
-  font-size: 1rem;
-  letter-spacing: 1px;
-  font-weight: 600;
+h4.title {
+  font-size: 1.2rem;
   margin: 0;
   color: #386641
+}
+
+p.description {
+  margin-block-start: 0;
 }
 
 .project .description {
@@ -83,14 +85,15 @@ p.introduction {
 
 .project .footer a {
   text-decoration: none;
-  padding: 0 0.3rem;
-  color: #bc4749;
+  padding: 0 0.5rem;
+  color: #386641;
   transition: 0.2s ease-in-out;
   border-radius: .25rem;
 }
 
 .project .footer a:hover {
   opacity: 0.8;
+  color: #bc4749;
   background-color: ivory;
 }
 
