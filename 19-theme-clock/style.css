@@ -10,8 +10,8 @@ html {
 }
 
 html.dark {
-  --primary-color: #fff;
-  --secondary-color: #333;
+  --primary-color: #f2e9e4;
+  --secondary-color: #22223b;
 }
 
 html.dark {

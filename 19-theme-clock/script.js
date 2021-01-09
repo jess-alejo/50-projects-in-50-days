@@ -71,6 +71,8 @@ function setTime() {
   dateEl.innerHTML = `${days[day]}, ${months[month]} <span class="circle">${date}</span>`
 }
 
+setTime()
+
 setInterval(() => {
   setTime()
 }, 500)
