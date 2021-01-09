@@ -9,7 +9,7 @@ function showProjects() {
 
     project.innerHTML = `
     <div class="preview">
-      <img src="${data.previewUrl} alt="${data.title}">
+      <img src="${data.url}/preview.png" alt="${data.title}">
     </div>
     <div class="info">
       <h4 class="title">${data.title}</h4>
@@ -20,7 +20,7 @@ function showProjects() {
     </div>
     <div class="footer">
       <small class="number">#${number}</small>
-      <a href="${data.url}" class="project-link" target="_blank">Show</a>
+      <a href="${data.url}/index.html" class="project-link" target="_blank">Show</a>
     </div>
     `
 
