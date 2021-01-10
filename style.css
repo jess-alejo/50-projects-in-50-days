@@ -44,6 +44,10 @@ p.introduction {
   margin: 10px;
 }
 
+.project .preview {
+  height: 150px;
+}
+
 .project img {
   object-fit: cover;
   width: 100%;
@@ -62,7 +66,7 @@ p.introduction {
 h4.title {
   font-size: 1.2rem;
   margin: 0;
-  color: #386641
+  color: #386641;
 }
 
 p.description {
@@ -88,7 +92,7 @@ p.description {
   padding: 0 0.5rem;
   color: #386641;
   transition: 0.2s ease-in-out;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
 }
 
 .project .footer a:hover {

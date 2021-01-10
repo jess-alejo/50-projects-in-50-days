@@ -114,33 +114,6 @@ const projects = [
     url: "./22-drawing-app/",
     title: "Drawing App",
     description:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       "A basic drawing app created using HTML canvas and JavaScript API.",
   },
   {
@@ -151,8 +124,7 @@ const projects = [
   {
     url: "./24-content-placeholder/",
     title: "Content Placeholder",
-    description:
-      "A placeholder with a gradient animation before its content is shown.",
+    description: "An animated placeholder before its content is shown.",
   },
   {
     url: "./25-sticky-navbar/",
@@ -168,19 +140,18 @@ const projects = [
   {
     url: "./27-toast-notification/",
     title: "Toast Notification",
-    description:
-      "A notification that automatically disappears at a certain amount of time.",
+    description: "A notification that stays at a certain amount of time.",
   },
   {
     url: "./28-github-profiles/",
     title: "Github Profiles",
-    description: "Search and display Github user profile fetched from Github API.",
+    description:
+      "Search and display Github user profile fetched from Github API.",
   },
   {
     url: "./29-double-heart-click/",
     title: "Double Hearth Click",
-    description:
-      "Shows a growing heart animation on mouse double-click."
+    description: "Shows a growing heart animation on mouse double-click.",
   },
   {
     url: "./30-auto-text-effect/",
@@ -195,13 +166,12 @@ const projects = [
   {
     url: "./32-good-cheap-fast-checkboxes/",
     title: "Good, Cheap, Fast",
-    description: "A custom toggle widget with some built-in logic."
+    description: "A custom toggle widget with some built-in logic.",
   },
   {
     url: "./33-notes-app/",
     title: "Notes App",
-    description:
-      "A note taking app that uses localStorage to save and retrieve notes.",
+    description: "A note taking app that can save and retrieve notes.",
   },
   {
     url: "./34-animated-countdown/",
@@ -222,6 +192,12 @@ const projects = [
   {
     url: "./37-pokedex/",
     title: "Pokedex",
-    description: "A deck of Pokémon cards with information fetched from PokéAPI.",
+    description:
+      "A deck of Pokémon cards with information fetched from PokéAPI.",
+  },
+  {
+    url: "./38-mobile-tab/",
+    title: "Mobile Tab",
+    description: "A mobile looking UI with image and tabs.",
   },
 ]
