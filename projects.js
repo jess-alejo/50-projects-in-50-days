@@ -200,4 +200,10 @@ const projects = [
     title: "Mobile Tab",
     description: "A mobile looking UI with image and tabs.",
   },
+  {
+    url: "./39-password-strength-background/",
+    title: "Password Strength Background",
+    description:
+      "A login form which uses background image to check password strength.",
+  },
 ]
