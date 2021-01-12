@@ -206,4 +206,9 @@ const projects = [
     description:
       "A login form which uses background image to check password strength.",
   },
+  {
+    url: "./40-3d-background-boxes",
+    title: "3D Background Boxes",
+    description: "A 3D boxes with GIF images that turns into one box.",
+  },
 ]
