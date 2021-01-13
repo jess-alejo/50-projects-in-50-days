@@ -211,4 +211,10 @@ const projects = [
     title: "3D Background Boxes",
     description: "A 3D boxes with GIF images that turns into one box.",
   },
+  {
+    url: "./41-verify-account-ui",
+    title: "Verify Account UI",
+    description:
+      "A mostly seen UI where user provides verification code to verify account.",
+  },
 ]
