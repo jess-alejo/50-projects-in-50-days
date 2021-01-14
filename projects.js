@@ -217,4 +217,9 @@ const projects = [
     description:
       "A mostly seen UI where user provides verification code to verify account.",
   },
+  {
+    url: "./42-live-user-filter",
+    title: "Live User Filter",
+    description: "Interactively find a user by name or address from a list.",
+  },
 ]
