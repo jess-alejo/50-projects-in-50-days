@@ -222,4 +222,9 @@ const projects = [
     title: "Live User Filter",
     description: "Interactively find a user by name or address from a list.",
   },
+  {
+    url: "./43-feedback-ui-design",
+    title: "Feedback UI Design",
+    description: "A UI where user can select a smiley and send it as feedback.",
+  },
 ]
