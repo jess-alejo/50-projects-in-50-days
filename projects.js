@@ -227,4 +227,9 @@ const projects = [
     title: "Feedback UI Design",
     description: "A UI where user can select a smiley and send it as feedback.",
   },
+  {
+    url: "./44-custom-range-slider",
+    title: "Custom Range Slider",
+    description: "A multi-browser compatible custom range slider widget.",
+  },
 ]
