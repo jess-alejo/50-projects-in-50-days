@@ -230,6 +230,11 @@ const projects = [
   {
     url: "./44-custom-range-slider",
     title: "Custom Range Slider",
-    description: "A multi-browser compatible custom range slider widget.",
+    description: "A multi-browser compatible custom range slider widget with.",
+  },
+  {
+    url: "./45-netflix-navigation",
+    title: "Netflix Navigation",
+    description: "A Netflix themed sidebar menu with animation.",
   },
 ]
