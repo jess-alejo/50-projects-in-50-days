@@ -237,4 +237,10 @@ const projects = [
     title: "Netflix Navigation",
     description: "A Netflix themed sidebar menu with animation.",
   },
+  {
+    url: "./46-quiz-app",
+    title: "Quiz App",
+    description:
+      "A  quiz app where user select an answer and get score at the end.",
+  },
 ]
