@@ -241,6 +241,11 @@ const projects = [
     url: "./46-quiz-app",
     title: "Quiz App",
     description:
-      "A  quiz app where user select an answer and get score at the end.",
+      "A quiz app where user select an answer and get score at the end.",
+  },
+  {
+    url: "./47-testimonial-box-switcher",
+    title: "Testimonial Box Switcher",
+    description: "A testimonial widget that automatically switch to the next.",
   },
 ]
