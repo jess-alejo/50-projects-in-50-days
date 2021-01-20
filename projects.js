@@ -248,4 +248,9 @@ const projects = [
     title: "Testimonial Box Switcher",
     description: "A testimonial widget that automatically switch to the next.",
   },
+  {
+    url: "./48-random-image-feed",
+    title: "Random Image Feed",
+    description: "Displays random images sprinkled with CSS.",
+  },
 ]
