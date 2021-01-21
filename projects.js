@@ -253,4 +253,10 @@ const projects = [
     title: "Random Image Feed",
     description: "Displays random images sprinkled with CSS.",
   },
+  {
+    url: "./49-todo-list",
+    title: "Todo List",
+    description:
+      "A functional todo list app that saves and retrieves todo items.",
+  },
 ]
