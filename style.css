@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #61994e;
   color: #f2e8cf;
@@ -33,7 +37,7 @@ p.introduction {
   flex-wrap: wrap;
   align-items: space-between;
   justify-content: center;
-  margin: 0 auto;
+  margin: 0 auto 50px;
   max-width: 1200px;
 }
 
