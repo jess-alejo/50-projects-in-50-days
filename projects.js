@@ -259,4 +259,9 @@ const projects = [
     description:
       "A functional todo list app that saves and retrieves todo items.",
   },
+  {
+    url: "./50-insect-catch-game",
+    title: "Insect Catch Game",
+    description: "A game that challenges one's limit.",
+  },
 ]
