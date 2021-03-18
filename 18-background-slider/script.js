@@ -8,7 +8,6 @@ let activeSlide = 0
 setBackgroundImage()
 
 function setBackgroundImage() {
-  console.log(activeSlide, slides.length)
   body.style.backgroundImage = slides[activeSlide].style.backgroundImage
 }
 
@@ -22,7 +21,7 @@ leftBtn.addEventListener("click", () => {
   if (activeSlide < 0) activeSlide = slides.length - 1
 
   setBackgroundImage()
-  setActiveSlide
+  setActiveSlide()
 })
 
 rightBtn.addEventListener("click", () => {
